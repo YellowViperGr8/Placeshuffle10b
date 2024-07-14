@@ -1,0 +1,40 @@
+<!-- HTML code -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Shuffler</title>
+    <style>
+      body {
+        background-color: LightBlue;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+      }
+      .row {
+        background-color: LightGray;
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        border: 1px solid DodgerBlue;
+        padding: 10px;
+        width: 200px;
+      }
+      .button-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Place Shuffler</h1>
+    <div class="button-container">
+      <button id="shuffle-button">Shuffle</button>
+      <button id="reshuffle-button" style="display: none;">Reshuffle</button>
+    </div>
+    <div id="rows"></div>
+
+    <script src="script.js"></script>
+  </body>
